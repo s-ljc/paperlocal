@@ -5,6 +5,7 @@ plugins {
 android {
     namespace 'com.paperlocal'
     compileSdk 34
+    buildToolsVersion '36.0.0'
 
     defaultConfig {
         applicationId 'com.paperlocal'
