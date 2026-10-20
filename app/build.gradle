@@ -1,0 +1,31 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.paperlocal'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.paperlocal'
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName '0.1.0-skeleton'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+// Pure client: no UI/网络 libraries on purpose. org.json ships with Android.
+dependencies {
+}

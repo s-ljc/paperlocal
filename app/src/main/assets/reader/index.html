@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PaperLocal</title>
+<style>
+  body { margin: 0; font-family: sans-serif; background: #fafafa; color: #222; }
+  #bar { position: sticky; top: 0; display: flex; gap: 8px; align-items: center;
+         background: #fff; border-bottom: 1px solid #ddd; padding: 8px 12px; z-index: 9; }
+  #bar h1 { font-size: 15px; margin: 0; flex: 1; overflow: hidden;
+            white-space: nowrap; text-overflow: ellipsis; }
+  .chip { font-size: 12px; border: 1px solid #bbb; border-radius: 14px;
+          padding: 3px 10px; background: #f2f2f7; }
+  #pages { padding: 12px; }
+  canvas { width: 100%; box-shadow: 0 1px 4px rgba(0,0,0,.2); margin-bottom: 12px; background: #fff; }
+  .tr { background: #fffbe6; border-left: 3px solid #f0b90b; padding: 8px 10px;
+        margin: 8px 0; font-size: 15px; white-space: pre-wrap; }
+  #status { font-size: 12px; color: #888; padding: 4px 12px; }
+</style>
+</head>
+<body>
+  <div id="bar">
+    <h1 id="title">PaperLocal</h1>
+    <span class="chip" id="model">🤖 …</span>
+    <span class="chip" id="doTr">翻译选段</span>
+  </div>
+  <div id="status"></div>
+  <div id="pages"></div>
+  <script src="reader.js"></script>
+</body>
+</html>

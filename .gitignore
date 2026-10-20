@@ -1,0 +1,8 @@
+# .gitignore
+.gradle/
+build/
+*.iml
+.idea/
+local.properties
+*.apk
+__pycache__/
