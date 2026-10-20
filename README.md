@@ -6,7 +6,14 @@
 
 ## 状态
 
-🧱 **骨架（skeleton）**——架构、AI 层、桥、配置管理已就位；PDF 渲染层待接入 pdf.js / pdfium。
+✅ **0.2.0 可用版**（[Releases 下载 APK](https://github.com/s-ljc/paperlocal/releases/download/v0.2.0/PaperLocal-0.2.0.apk)，Android 7.0+）
+
+- 导入本地 PDF（系统文件选择器，Android 13+ 分区存储兼容）
+- pdf.js 渲染 + 可选文字层（懒加载，长文档不卡）
+- 选段翻译（浮动"翻译"按钮，结果缓存）
+- 文档对话（流式输出，全文上下文，多轮历史）
+- 多接口管理：增删改、切换、GET /models 自动填模型名（兼连接测试）
+- 待办：本地端侧模型（免 API）、标注导出、阅读位置记忆
 
 ## 设计
 

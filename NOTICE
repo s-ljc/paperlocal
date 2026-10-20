@@ -1,9 +1,13 @@
 PaperLocal — third-party attribution registry
 ============================================
 
-Nothing below is bundled yet; entries are added as dependencies land.
+Bundled dependencies:
 
-- pdf.js (planned renderer) — Apache-2.0 / MIT, https://github.com/mozilla/pdf.js
+- pdf.js 3.11.174 (legacy build, pdf.min.js + pdf.worker.min.js) — MIT,
+  https://github.com/mozilla/pdf.js — bundled in
+  app/src/main/assets/reader/pdfjs/
+
+Planned:
 - pdfium (alternative renderer) — BSD-3, https://pdfium.googlesource.com/pdfium/
 - pdf2htmlEX (optional reflow pipeline) — MIT, https://github.com/coolwanglu/pdf2htmlEX
 
